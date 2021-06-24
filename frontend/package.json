@@ -1,0 +1,23 @@
+{
+	"name": "frontend",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "webpack-dev-server  --watch-content-base --open",
+		"build": "webpack --mode=production --output-path ./main.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [],
+	"author": "Ricky Firdaus",
+	"license": "MIT",
+	"devDependencies": {
+		"webpack": "^5.4.0",
+		"webpack-cli": "^4.2.0",
+		"webpack-dev-server": "^3.11.0"
+	},
+	"dependencies": {
+		"axios": "^0.21.0",
+		"chartist": "^0.11.4"
+	}
+}
